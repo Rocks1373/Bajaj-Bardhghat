@@ -1,0 +1,34 @@
+# Bajaj / Hulhas Auto - Project Status & Documentation
+
+## Overview
+This project is a full-stack web application for a vehicle dealership (Bajaj). It manages inventory (bikes and scooters), promotional offers, customer leads, and an advanced admin dashboard.
+
+## Tech Stack architecture
+
+### Backend (`apps/backend`)
+- **Framework**: NestJS (v10)
+- **Database**: PostgreSQL with Prisma ORM
+- **Authentication**: JWT & Passport
+- **Key Modules**:
+  - `Auth`: User authentication and role management (ADMIN vs USER).
+  - `Products`: Inventory management, specifications (with JSON support), stock availability, pricing, and images.
+  - `Offers`: Promotional campaigns, finance details (APR, tenure), and exchange offers.
+  - `Leads`: Tracking customer inquiries, budgets, and sales pipeline statuses (NEW, CONTACTED, CLOSED).
+  - `Settings`: Dynamic site configuration.
+  - `Uploads`: File and image handling.
+
+### Frontend (`apps/frontend`)
+- **Framework**: Next.js 14.1 (App Router)
+- **Styling & Animations**: Tailwind CSS, Framer Motion
+- **UI Toolkit**: Radix UI (shadcn/ui), Lucide React icons
+- **State & Forms**: React Hook Form, Zod validation
+- **Key Sections**:
+  - `Home (/)`: Client-facing landing page.
+  - `Inventory (/inventory)`: Public catalog.
+  - `Admin (/admin)`: Secure dashboard managing the complete backend data pipeline. Includes recent visual overhauls (cross-pattern backgrounds) and preparations for 3D model viewing.
+
+## Current Status (Latest Enhancements)
+- **Schema & Persistence**: Fully defined Data Models mapped to Postgres via Prisma. `Product` schema includes dynamic `specs`, relationships to `ProductImage`, and enums for Categories/Availability.
+- **Backend Infrastructure**: Scaffolded out and configured securely with module separation and dependency injection.
+- **Frontend UI & Components**: High-fidelity modern interface setup with Radix UI components (Avatars, Dialogs, Selects, Sliders, Switch, Tabs, Toasts, etc.) for a polished Admin UX.
+- **Admin Panel Enhancements**: The Admin area has been upgraded structurally, emphasizing a beautiful, premium visual presentation.

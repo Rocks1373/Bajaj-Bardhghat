@@ -1,0 +1,260 @@
+{
+    "showroom": {
+        "name": "Hulhas Auto",
+        "tagline": "Authorized Bajaj Dealer",
+        "phone": "+977-9857080387",
+        "whatsapp": "9779857080387",
+        "email": "info@hulhasauto.com",
+        "address": "Bardaghat, Nawalparasi, Nepal",
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3541.0!2d83.7969819!3d27.5547134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39943b7ae0950875%3A0xf7d4a95dd9ec5032!2sManakamana%20auto%20motive%20parts%20%26%20Garage!5e0!3m2!1sen!2snp!4v1",
+        "googleMapsLink": "https://maps.app.goo.gl/1p9WUAoyzxUEBAgF9",
+        "workingHours": "Sun-Fri: 9:00 AM - 7:00 PM | Sat: 10:00 AM - 5:00 PM"
+    },
+    "models": [
+        {
+            "model_name": "Pulsar NS400Z",
+            "slug": "pulsar-ns400z",
+            "has_3d": true,
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-ns400",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 193900,
+            "tag": "Flagship",
+            "highlight": true,
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-ns400-2024/banner/mobile-banner-img.webp",
+            "cc": 373
+        },
+        {
+            "model_name": "Dominar 400",
+            "slug": "dominar-400",
+            "official_url": "https://www.bajajauto.com/bikes/dominar-400",
+            "category": "TOURING",
+            "model_family": "Dominar",
+            "price": 240233,
+            "tag": "Premium Tourer",
+            "highlight": true,
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/dominar-400-2024/banner/dominar-400-bike-mobile-banner.webp",
+            "cc": 373
+        },
+        {
+            "model_name": "Pulsar RS200",
+            "slug": "pulsar-rs200",
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-rs200",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 164000,
+            "tag": "Super Sport",
+            "highlight": true,
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-rs200-2024/banner/mobile-banner-img.webp",
+            "cc": 200
+        },
+        {
+            "model_name": "Pulsar N250",
+            "slug": "pulsar-n250",
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-n250",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 147000,
+            "tag": "Quarter Litre",
+            "highlight": true,
+            "image": "https://cdn.bajajauto.com/-/media/images/bajajauto/bikes-container/pulsar-n250.webp",
+            "cc": 250
+        },
+        {
+            "model_name": "Dominar 250",
+            "slug": "dominar-250",
+            "official_url": "https://www.bajajauto.com/bikes/dominar-250",
+            "category": "TOURING",
+            "model_family": "Dominar",
+            "price": 180000,
+            "tag": "Sport Tourer",
+            "highlight": true,
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/dominar-250-2024/banner/dominar-250-bike-mobile-banner.webp",
+            "cc": 249
+        },
+        {
+            "model_name": "Pulsar NS200",
+            "slug": "pulsar-ns200",
+            "has_3d": true,
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-ns200",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 141400,
+            "tag": "Bestseller",
+            "highlight": true,
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-ns200-2024/banner/mobile-banner-img.webp",
+            "cc": 200
+        },
+        {
+            "model_name": "Pulsar N160",
+            "slug": "pulsar-n160",
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-n160",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 130000,
+            "tag": "Street Fighter",
+            "image": "https://cdn.bajajauto.com/-/media/images/bajajauto/bikes-container/pulsar-n160.webp",
+            "cc": 160
+        },
+        {
+            "model_name": "Pulsar NS160",
+            "slug": "pulsar-ns160",
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-ns160",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 118000,
+            "tag": "Naked Sport",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-ns160-2024/banner/mobile-banner-img.webp",
+            "cc": 160
+        },
+        {
+            "model_name": "Pulsar 220F",
+            "slug": "pulsar-220f",
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-220f",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 136000,
+            "tag": "Legend",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-220f/banner/mobile-banner-img.webp",
+            "cc": 220
+        },
+        {
+            "model_name": "Pulsar N125",
+            "slug": "pulsar-n125",
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-n125",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 95000,
+            "tag": "Entry Sport",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-n125-2024/banner/mobile-banner-img.webp",
+            "cc": 125
+        },
+        {
+            "model_name": "Pulsar NS125",
+            "slug": "pulsar-ns125",
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-ns125",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 99000,
+            "tag": "Young Sport",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-ns125-2024/banner/mobile-banner-img.webp",
+            "cc": 125
+        },
+        {
+            "model_name": "Pulsar 150",
+            "slug": "pulsar-150",
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-150",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 106000,
+            "tag": "Classic",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-150/banner/mobile-banner-img.webp",
+            "cc": 150
+        },
+        {
+            "model_name": "Pulsar 125",
+            "slug": "pulsar-125",
+            "official_url": "https://www.bajajauto.com/bikes/pulsar-125",
+            "category": "SPORT",
+            "model_family": "Pulsar",
+            "price": 84000,
+            "tag": "Youth",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-125-2024/banner/mobile-banner-img.webp",
+            "cc": 125
+        },
+        {
+            "model_name": "Avenger Cruise 220",
+            "slug": "avenger-cruise-220",
+            "official_url": "https://www.bajajauto.com/bikes/avenger-cruise-220",
+            "category": "CRUISER",
+            "model_family": "Avenger",
+            "price": 139000,
+            "tag": "Cruiser",
+            "highlight": true,
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/avenger-cruise-220-2024/banner/mobile-banner-img.webp",
+            "cc": 220
+        },
+        {
+            "model_name": "Avenger Street 160",
+            "slug": "avenger-street-160",
+            "official_url": "https://www.bajajauto.com/bikes/avenger-street-160",
+            "category": "CRUISER",
+            "model_family": "Avenger",
+            "price": 110000,
+            "tag": "Street Cruiser",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/avenger-street-160-2024/banner/mobile-banner-img.webp",
+            "cc": 160
+        },
+        {
+            "model_name": "Freedom 125",
+            "slug": "freedom-125",
+            "official_url": "https://www.bajajauto.com/bikes/bajaj-freedom",
+            "category": "CNG",
+            "model_family": "Freedom",
+            "price": 110000,
+            "tag": "World's 1st CNG",
+            "highlight": true,
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/freedom-2024/bikes/tv_blue.webp",
+            "cc": 125
+        },
+        {
+            "model_name": "Platina 110",
+            "slug": "platina-110",
+            "official_url": "https://www.bajajauto.com/bikes/platina-110",
+            "category": "COMMUTER",
+            "model_family": "Platina",
+            "price": 72000,
+            "tag": "Economy",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/platina-110-2024/banner/mobile-banner-img.webp",
+            "cc": 110
+        },
+        {
+            "model_name": "Platina 100",
+            "slug": "platina-100",
+            "official_url": "https://www.bajajauto.com/bikes/platina-100",
+            "category": "COMMUTER",
+            "model_family": "Platina",
+            "price": 65000,
+            "tag": "Best Mileage",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/platina-100-2024/banner/mobile-banner-img.webp",
+            "cc": 100
+        },
+        {
+            "model_name": "CT 110X",
+            "slug": "ct-110x",
+            "official_url": "https://www.bajajauto.com/bikes/ct-110x",
+            "category": "COMMUTER",
+            "model_family": "CT",
+            "price": 68000,
+            "tag": "Tough Commuter",
+            "image": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/ct-110x-2024/banner/mobile-banner-img.webp",
+            "cc": 110
+        }
+    ],
+    "viewer360": {
+        "imageSequenceDir": "/images/360",
+        "frameCount": 36,
+        "format": "webp",
+        "autoRotateSpeed": 50,
+        "enableZoom": true,
+        "enableFullscreen": true,
+        "mobileDragSensitivity": 1.5
+    },
+    "seo": {
+        "title": "Hulhas Auto | Authorized Bajaj Showroom - Bardaghat",
+        "description": "Bardaghat's premier Bajaj motorcycle dealer. Explore Pulsar NS400Z, Dominar 400, Avenger, Freedom CNG, Chetak Electric with 360° views, easy EMI, and exchange offers.",
+        "keywords": [
+            "Bajaj",
+            "Hulhas Auto",
+            "motorcycle",
+            "Pulsar",
+            "Dominar",
+            "Freedom CNG",
+            "showroom",
+            "Nepal",
+            "Bardaghat",
+            "Nawalparasi",
+            "bike dealer"
+        ]
+    }
+}

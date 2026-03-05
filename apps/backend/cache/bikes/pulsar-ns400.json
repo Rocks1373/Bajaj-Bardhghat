@@ -1,0 +1,46 @@
+{
+  "name": "Pulsar NS400",
+  "slug": "pulsar-ns400",
+  "official_url": "https://www.bajajauto.com/bikes/pulsar-ns400",
+  "images": [
+    "/images/fallback-bike.jpg"
+  ],
+  "specs": {
+    "Displacement": "373.27 cc",
+    "Max Power": "39.65 PS @ 8500 rpm",
+    "Max Torque": "35 Nm @ 7000 rpm",
+    "Kerb Weight": "174 kg",
+    "Top Speed": "165 km/h",
+    "Fuel Tank": "14 L",
+    "Mileage": "30 kmpl",
+    "Transmission": "6-Speed",
+    "Seat Height": "795 mm",
+    "Ground Clearance": "165 mm"
+  },
+  "engine": {
+    "Type": "Single Cylinder, 4 Stroke, Liquid Cooled, DOHC",
+    "Displacement": "373.27 cc",
+    "Max Power": "39.65 PS @ 8500 rpm",
+    "Max Torque": "35 Nm @ 7000 rpm",
+    "Fuel System": "Electronic Fuel Injection",
+    "Cooling": "Liquid Cooled"
+  },
+  "features": [
+    "Ride-by-Wire",
+    "Dual Channel ABS",
+    "TFT Console",
+    "Bluetooth Connectivity",
+    "Adjustable Suspension",
+    "LED All-Around",
+    "Ride Modes",
+    "USB Charging"
+  ],
+  "colors": [
+    "Cocktail Wine Red",
+    "Pearl Metallic White",
+    "Matte Axe Black"
+  ],
+  "price": 285000,
+  "description": "The Pulsar NS400 is Bajaj's most powerful naked sport with a 373.27cc liquid-cooled engine delivering 39.65 PS. Features ride-by-wire, dual-channel ABS, adjustable suspension, and a full-digital TFT console with Bluetooth connectivity.",
+  "fetched_at": "2026-02-28T23:21:14.482Z"
+}

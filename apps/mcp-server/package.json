@@ -1,0 +1,28 @@
+{
+    "name": "bajaj-mcp-server",
+    "version": "1.0.0",
+    "description": "MCP Server for Bajaj Motorcycle Showroom - Antigravity Integration",
+    "main": "src/server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "seed": "node src/seed.js",
+        "test": "node src/test-client.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.12.1",
+        "express": "^4.21.2",
+        "ws": "^8.18.0",
+        "pg": "^8.13.1",
+        "dotenv": "^16.4.7",
+        "express-rate-limit": "^7.5.0",
+        "helmet": "^8.0.0",
+        "winston": "^3.17.0",
+        "uuid": "^11.0.5",
+        "zod": "^3.24.2"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}

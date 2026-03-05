@@ -1,0 +1,138 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  ADMIN
+  USER
+}
+
+enum OfferType {
+  FINANCE
+  EXCHANGE
+  GENERAL
+}
+
+enum LeadStatus {
+  NEW
+  CONTACTED
+  CLOSED
+}
+
+enum ProductCategory {
+  BIKE
+  SCOOTER
+}
+
+enum Availability {
+  IN_STOCK
+  PRE_ORDER
+  OUT_OF_STOCK
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String
+  role      Role     @default(ADMIN)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
+
+model Product {
+  id              String          @id @default(uuid())
+  name            String
+  slug            String          @unique
+  category        ProductCategory
+  modelFamily     String
+  cc              Int
+  price           Float
+  discountedPrice Float?
+  description     String
+  keyFeatures     String[]
+  specs           Json            @default("{}")
+  availability    Availability    @default(IN_STOCK)
+  tags            String[]
+  emiStarting     Float?
+  year            Int             @default(2024)
+  model3dUrl      String?
+  images360       String[]        @default([])
+  videoUrl        String?
+  isUsed          Boolean         @default(false)
+  usedBikeImages  String[]        @default([])
+  launchDate      DateTime?
+  isDeleted       Boolean         @default(false)
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+
+  images ProductImage[]
+
+  @@map("products")
+}
+
+model ProductImage {
+  id        String   @id @default(uuid())
+  url       String
+  alt       String?
+  order     Int      @default(0)
+  productId String
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@map("product_images")
+}
+
+model Offer {
+  id          String    @id @default(uuid())
+  type        OfferType
+  title       String
+  subtitle    String?
+  details     String?
+  aprFrom     Float?
+  tenureRange String?
+  disclaimer  String?
+  bannerImage String?
+  active      Boolean   @default(true)
+  isDeleted   Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@map("offers")
+}
+
+model Lead {
+  id              String     @id @default(uuid())
+  fullName        String
+  phone           String
+  email           String?
+  interestedModel String?
+  budget          Float?
+  downPayment     Float?
+  tenureMonths    Int?
+  city            String?
+  message         String?
+  status          LeadStatus @default(NEW)
+  notes           String?
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+
+  @@map("leads")
+}
+
+model SiteSettings {
+  id               String   @id @default(uuid())
+  key              String   @unique
+  value            Json
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  @@map("site_settings")
+}

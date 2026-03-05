@@ -1,0 +1,28 @@
+{
+  "name": "bikes",
+  "slug": "bikes",
+  "official_url": "https://www.bajajauto.com/bikes",
+  "images": [
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/pulsarn160.webp",
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/pulsar-n250.webp",
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/pulsar-ns125.webp",
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/pulsarns160.webp",
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/pulsar-ns200.webp",
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/pulsar-ns400z.webp",
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/pulsar-rs200.webp",
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/pulsar-125.webp",
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/pulsar-150.webp",
+    "https://cdn.bajajauto.com/-/media/images/bajajauto/bajaj-price-page/header-drop-down/webp/dominar-250.webp"
+  ],
+  "specs": {
+    "Exchange your vehicle": "Are you looking to exchange your old 2-wheeler?"
+  },
+  "engine": {},
+  "features": [],
+  "colors": [
+    "Book Now"
+  ],
+  "price": 0,
+  "description": "Discover a wide selection of new bikes and motorcycles from Bajaj Auto. compare prices, features, and book your favorite two-wheeler online at unbeatable prices.",
+  "fetched_at": "2026-03-02T12:34:42.951Z"
+}

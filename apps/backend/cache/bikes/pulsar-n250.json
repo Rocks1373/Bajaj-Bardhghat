@@ -1,0 +1,44 @@
+{
+  "name": "Pulsar N250",
+  "slug": "pulsar-n250",
+  "official_url": "https://www.bajajauto.com/bikes/pulsar-n250",
+  "images": [
+    "/images/fallback-bike.jpg"
+  ],
+  "specs": {
+    "Displacement": "249.07 cc",
+    "Max Power": "24.5 PS @ 8750 rpm",
+    "Max Torque": "21.5 Nm @ 6500 rpm",
+    "Kerb Weight": "162 kg",
+    "Top Speed": "140 km/h",
+    "Fuel Tank": "14 L",
+    "Mileage": "35 kmpl",
+    "Transmission": "6-Speed",
+    "Seat Height": "795 mm",
+    "Ground Clearance": "165 mm"
+  },
+  "engine": {
+    "Type": "Single Cylinder, 4 Stroke, 2 Valve, Oil Cooled",
+    "Displacement": "249.07 cc",
+    "Max Power": "24.5 PS @ 8750 rpm",
+    "Max Torque": "21.5 Nm @ 6500 rpm",
+    "Fuel System": "Fuel Injection",
+    "Cooling": "Oil Cooled"
+  },
+  "features": [
+    "USD Front Forks",
+    "Semi-Digital Console",
+    "Single Channel ABS",
+    "LED DRLs",
+    "Muscular Styling",
+    "Underbelly Exhaust"
+  ],
+  "colors": [
+    "Racing Red",
+    "Brooklyn Black",
+    "Techno Grey"
+  ],
+  "price": 147000,
+  "description": "The Pulsar N250 brings quarter-litre performance in a naked-street package. Oil-cooled 249.07cc engine with refined power delivery, USD forks, and Premium semi-digital console.",
+  "fetched_at": "2026-03-05T01:11:45.649Z"
+}

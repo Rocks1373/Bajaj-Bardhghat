@@ -1,0 +1,45 @@
+{
+  "name": "Pulsar NS200",
+  "slug": "pulsar-ns200",
+  "official_url": "https://www.bajajauto.com/bikes/pulsar-ns200",
+  "images": [
+    "/images/fallback-bike.jpg"
+  ],
+  "specs": {
+    "Displacement": "199.5 cc",
+    "Max Power": "24.5 PS @ 9750 rpm",
+    "Max Torque": "18.74 Nm @ 8000 rpm",
+    "Kerb Weight": "156 kg",
+    "Top Speed": "136 km/h",
+    "Fuel Tank": "12 L",
+    "Mileage": "35 kmpl",
+    "Transmission": "6-Speed",
+    "Seat Height": "805 mm",
+    "Ground Clearance": "169 mm"
+  },
+  "engine": {
+    "Type": "Single Cylinder, 4 Stroke, Liquid Cooled, Triple Spark DTS-i",
+    "Displacement": "199.5 cc",
+    "Max Power": "24.5 PS @ 9750 rpm",
+    "Max Torque": "18.74 Nm @ 8000 rpm",
+    "Fuel System": "Fuel Injection",
+    "Cooling": "Liquid Cooled"
+  },
+  "features": [
+    "Triple Spark DTS-i",
+    "Liquid Cooling",
+    "Perimeter Frame",
+    "ABS",
+    "Digital Console",
+    "Projector Headlamp",
+    "LED Tail Light"
+  ],
+  "colors": [
+    "Burnt Red",
+    "Pewter Grey",
+    "Saffire Blue"
+  ],
+  "price": 141400,
+  "description": "The NS200 is the street-fighting avatar of the Pulsar range. With a 199.5cc liquid-cooled triple-spark DTS-i engine, perimeter frame, and aggressive styling, it's built to dominate city streets.",
+  "fetched_at": "2026-03-05T02:22:24.692Z"
+}

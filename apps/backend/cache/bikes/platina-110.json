@@ -1,0 +1,44 @@
+{
+  "name": "Platina 110",
+  "slug": "platina-110",
+  "official_url": "https://www.bajajauto.com/bikes/platina-110",
+  "images": [
+    "/images/fallback-bike.jpg"
+  ],
+  "specs": {
+    "Displacement": "115.45 cc",
+    "Max Power": "8.6 PS @ 7000 rpm",
+    "Max Torque": "9.81 Nm @ 5000 rpm",
+    "Kerb Weight": "117 kg",
+    "Top Speed": "90 km/h",
+    "Fuel Tank": "11 L",
+    "Mileage": "70 kmpl",
+    "Transmission": "5-Speed",
+    "Seat Height": "760 mm",
+    "Ground Clearance": "165 mm"
+  },
+  "engine": {
+    "Type": "Single Cylinder, 4 Stroke, Air Cooled, DTS-i",
+    "Displacement": "115.45 cc",
+    "Max Power": "8.6 PS @ 7000 rpm",
+    "Max Torque": "9.81 Nm @ 5000 rpm",
+    "Fuel System": "Carburetor",
+    "Cooling": "Air Cooled"
+  },
+  "features": [
+    "Spring-Suspended Comfortech Seat",
+    "Nitrox Shock Absorbers",
+    "DTS-i Technology",
+    "CBS",
+    "Electric Start",
+    "LED DRL"
+  ],
+  "colors": [
+    "Cocktail Wine Red",
+    "Charcoal Black",
+    "Ebony Black with Blue"
+  ],
+  "price": 72000,
+  "description": "The Platina 110 is the ultimate commuter with best-in-class fuel efficiency. Spring-suspended comfort seat, nitrox shock absorbers, and ultra-low maintenance.",
+  "fetched_at": "2026-03-05T01:11:54.672Z"
+}
