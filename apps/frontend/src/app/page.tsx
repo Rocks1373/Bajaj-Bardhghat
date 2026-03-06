@@ -102,7 +102,7 @@ function Navbar() {
                 <div className="flex items-center justify-between h-16 lg:h-20">
                     <Link href="/" className="flex items-center gap-2">
                         {/* Custom Auto Logo */}
-                        <img src="/logo.jpg" alt="Logo" className="h-12 w-auto rounded object-contain" />
+                        <img src="/logo.jpg" alt="Logo" className="h-12 w-auto rounded object-contain hover:scale-125 transition-transform duration-300 transform origin-center" />
                         <div className="flex flex-col -space-y-1">
                             <div className="flex items-baseline gap-1">
                                 <span className="text-xl font-black text-white tracking-tight" style={{ letterSpacing: '-0.03em' }}>ULHAS</span>
@@ -160,7 +160,7 @@ function Hero() {
 
     return (
         <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
-            <div className="absolute inset-0 bg-bajaj-darker/90 bg-cover bg-center mix-blend-overlay opacity-20" style={{ backgroundImage: "url('/logo.jpg')" }} />
+            <div className="absolute inset-0 bg-bajaj-darker/90 bg-cover bg-center opacity-50" style={{ backgroundImage: "url('/hero_bg.jpg')" }} />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-bajaj-dark/80 to-bajaj-darker" />
             <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-bajaj-orange/5 rounded-full blur-[128px] animate-glow" />
             <div className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-bajaj-blue/5 rounded-full blur-[100px] animate-glow" style={{ animationDelay: '1.5s' }} />
@@ -277,7 +277,7 @@ function HeroBikesShowcase() {
                                         <img
                                             src={(bike as any).image}
                                             alt={bike.model_name}
-                                            className="w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-700"
+                                            className="w-full h-full object-contain p-4 group-hover:scale-125 transition-transform duration-700 transform origin-center"
                                             loading="lazy"
                                         />
                                     ) : (
@@ -517,7 +517,7 @@ function FeaturedModels() {
                                                 <img
                                                     src={(model as any).image}
                                                     alt={model.model_name}
-                                                    className={`w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-700 relative z-10 ${model.availability === 'OUT_OF_STOCK' ? 'grayscale opacity-50' : ''}`}
+                                                    className={`w-full h-full object-contain p-4 group-hover:scale-125 transition-transform duration-700 relative z-10 ${model.availability === 'OUT_OF_STOCK' ? 'grayscale opacity-50' : ''}`}
                                                     loading="lazy"
                                                 />
                                             ) : (

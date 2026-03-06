@@ -123,7 +123,7 @@ export default function ProductDetailPage() {
                             ) : (
                                 <div className="h-64 md:h-96 relative bg-gradient-to-br from-white/5 to-white/[0.02] flex items-center justify-center">
                                     {product.images?.[0] ? (
-                                        <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover" />
+                                        <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover hover:scale-125 transition-transform duration-500 transform origin-center" />
                                     ) : (
                                         <Bike className="w-40 h-40 text-white/10" />
                                     )}

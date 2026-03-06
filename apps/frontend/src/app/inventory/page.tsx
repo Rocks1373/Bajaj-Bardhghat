@@ -283,7 +283,7 @@ export default function InventoryPage() {
                                     <div className="group tilt-card glass-card rounded-2xl overflow-hidden cursor-pointer h-full">
                                         <div className="h-48 bg-gradient-to-br from-white/5 to-white/[0.02] flex items-center justify-center relative overflow-hidden">
                                             {product.images?.[0] ? (
-                                                <img src={product.images[0]} alt={product.name} className="w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-500" />
+                                                <img src={product.images[0]} alt={product.name} className="w-full h-full object-contain p-4 group-hover:scale-125 transition-transform duration-500" />
                                             ) : (
                                                 <Bike className="w-20 h-20 text-white/10 group-hover:text-white/20 transition-all duration-500 group-hover:scale-110" />
                                             )}

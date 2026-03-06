@@ -154,7 +154,7 @@ export default function ModelPage() {
                                             <img
                                                 src={(configModel as any).image}
                                                 alt={bikeName}
-                                                className="w-full h-full object-contain p-6"
+                                                className="w-full h-full object-contain p-6 hover:scale-125 transition-transform duration-700 transform origin-center"
                                             />
                                         ) : (
                                             <Bike className="w-48 h-48 text-white/[0.06]" />
