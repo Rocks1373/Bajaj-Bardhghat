@@ -171,13 +171,19 @@ export default function ModelPage() {
                                         {(configModel as any)?.cc && (
                                             <span className="absolute bottom-4 left-4 text-white/20 text-sm font-bold">{(configModel as any).cc}cc Engine</span>
                                         )}
-                                        {has3dModel && (
+                                        {has3dModel ? (
                                             <button
                                                 onClick={() => setActiveTab('3dview')}
                                                 className="absolute bottom-4 right-4 flex items-center gap-1.5 bg-bajaj-orange/90 hover:bg-bajaj-orange text-white text-xs font-medium px-3 py-1.5 rounded-full transition-colors"
                                             >
-                                                <Box className="w-3.5 h-3.5" /> View in 3D
+                                                <Box className="w-3.5 h-3.5" /> Open 3D model
                                             </button>
+                                        ) : (
+                                            <div
+                                                className="absolute bottom-4 right-4 flex items-center gap-1.5 bg-black/40 backdrop-blur-md text-white/50 text-xs font-medium px-3 py-1.5 rounded-full border border-white/10"
+                                            >
+                                                <Box className="w-3.5 h-3.5" /> Preview is uploading very soon
+                                            </div>
                                         )}
                                     </div>
                                 </div>

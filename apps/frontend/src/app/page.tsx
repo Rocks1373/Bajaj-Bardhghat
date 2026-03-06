@@ -101,13 +101,8 @@ function Navbar() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16 lg:h-20">
                     <Link href="/" className="flex items-center gap-2">
-                        {/* Logo mark — speed swoosh + U */}
-                        <div className="relative w-10 h-10 flex-shrink-0">
-                            <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-[#1a2a4a] to-[#0d1a30] border border-white/10" />
-                            <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-bajaj-orange/20 to-transparent" />
-                            <div className="absolute bottom-1 left-1 right-1 h-1 bg-gradient-to-r from-bajaj-orange to-bajaj-gold rounded-full opacity-80" />
-                            <span className="absolute inset-0 flex items-center justify-center text-white font-black text-lg leading-none" style={{ fontFamily: 'var(--font-display, sans-serif)', letterSpacing: '-0.05em' }}>U</span>
-                        </div>
+                        {/* Custom Auto Logo */}
+                        <img src="/logo.jpg" alt="Logo" className="h-12 w-auto rounded object-contain" />
                         <div className="flex flex-col -space-y-1">
                             <div className="flex items-baseline gap-1">
                                 <span className="text-xl font-black text-white tracking-tight" style={{ letterSpacing: '-0.03em' }}>ULHAS</span>
@@ -165,7 +160,8 @@ function Hero() {
 
     return (
         <section ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-b from-bajaj-darker via-bajaj-dark to-bajaj-darker" />
+            <div className="absolute inset-0 bg-bajaj-darker/90 bg-cover bg-center mix-blend-overlay opacity-20" style={{ backgroundImage: "url('/logo.jpg')" }} />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-bajaj-dark/80 to-bajaj-darker" />
             <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-bajaj-orange/5 rounded-full blur-[128px] animate-glow" />
             <div className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-bajaj-blue/5 rounded-full blur-[100px] animate-glow" style={{ animationDelay: '1.5s' }} />
 
